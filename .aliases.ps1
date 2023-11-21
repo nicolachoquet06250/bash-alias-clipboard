@@ -7,8 +7,12 @@ function clipboard {
     }
 
     $trad = @{
-        'unknown_command-fr_FR' = "La commande '${chosen_command}' n'existe pas"
-        'unknown_command-en_US' = "Command ${chosen_command} not found"
+        fr_FR = @{
+            unknown_command = "La commande '${chosen_command}' n'existe pas"
+        }
+        en_US = @{
+            unknown_command = "Command ${chosen_command} not found"
+        }
     }
 
     function help {
